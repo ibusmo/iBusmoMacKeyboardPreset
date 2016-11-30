@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<root>
+   	
+    <item>
+        <name>Home Row Arrow Keys: Cmd + IJKL to ^&lt;&gt;v</name>
+        <identifier>private.Omsub_Command__homerowarrows</identifier>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::I, ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_UP
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::J, ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_LEFT
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::K, ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_DOWN
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::L, ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_RIGHT
+        </autogen>
+    </item>
+
+    <item>
+        <name>Alin Left and Right as Command+O/U</name>
+        <identifier>private.Omsub_Align_L_R</identifier>
+        <autogen>
+		  	__KeyToKey__
+            KeyCode::U, ModifierFlag::COMMAND_L,
+  			KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L
+        </autogen>
+        <autogen>
+		  	__KeyToKey__
+            KeyCode::O, ModifierFlag::COMMAND_L,
+  			KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L
+        </autogen>
+    </item>
+
+   	<item>
+   		<name>Option Right as Option+Space - Spotlight</name>
+   		<identifier>private.Omsub_OptionRight_Spotlight</identifier>
+   		<autogen>
+   			__KeyToKey__
+   			KeyCode::OPTION_R, 
+  			KeyCode::SPACE, ModifierFlag::OPTION_L
+   		</autogen>
+   	</item>
+
+</root>
