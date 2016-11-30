@@ -1,6 +1,6 @@
 # iBusmoMacKeyboardPreset
 
-## Using with Karabinder
+## Using with Karabinder and DVORAK-QWERTY of OSX
 
 ### Home Row Arrow Keys
 Use {Left Command} + {[I, J, K, L]} as arrow key.
